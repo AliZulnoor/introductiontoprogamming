@@ -4,17 +4,17 @@ using namespace std;
 
 int main() 
 {
-    int number = 6;
+    int number = 7;
 
     cout << "This is untidy code."<<endl;
 
-    cout << "I'm surprised it works." << endl;
+    cout << "How does work ? No one knows" << endl;
 
-    cout << "It has " << number << " lines of code-" << endl;
+    cout << "It has " << number << " lines of code" << endl;
 
-    cout << "each more hideous than the last." << endl;
+    cout << "None of them make any sense." << endl;
 
-    cout << "You probably should add some line breaks in the text too" << endl;
+    cout << "What is the smell of the sky" << endl;
 
     return 0;
 }

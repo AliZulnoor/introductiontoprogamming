@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-	int sides;
-	cout << "Enter the number of sides: ";
+	int sides;  // initializing value as int
+	cout << "Enter the number of sides: "; // asking user to enterr the number of sides
 	cin >> sides;
-	if (sides == 3)
+	if (sides == 3) // comparing sides to give shape name
 	{
 		cout << "It's a Triangle" << endl;
 	}

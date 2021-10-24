@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-	float mangitude;
-	cout << "please enter the mangitude of the earthquake: ";
+	float mangitude; // taking magnitude as float
+	cout << "please enter the mangitude of the earthquake: "; //asking magnitude from user
 	cin >> mangitude;
-	if (mangitude < 2.0 && mangitude > 0.0)
+	if (mangitude < 2.0 && mangitude > 0.0)// comparing
 	{
 		cout << mangitude << " it is considered to be a micro earthquake." << endl;
 	}

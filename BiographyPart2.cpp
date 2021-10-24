@@ -4,14 +4,14 @@ using namespace std;
 int main()
 {
 	string name; // Intializing name without giving it the value
-	int age = 19;
-	string hometown; // Intializing hometown without giving it the value
+	int age = 18;
+	string home; // Intializing hometown without giving it the value
 
 	cout << "Enter your full name: ";
 
 	getline (cin, name); // Using getline function to take the full name as input
 	cout << endl << "Enter your hometown: ";
-	cin >> hometown;
-	cout << endl << "Name: " << name << endl << "Age:  " << age << endl << "Hometown: " << hometown << endl;
+	cin >> home;          // getting home name from user
+	cout << endl << "Name: " << name << endl << "Age:  " << age << endl << "Hometown: " << home << endl; //printing name and home 
 	return 0;
 }

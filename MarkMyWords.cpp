@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-	int grade;
-	cout << "Enter your percentage: ";
-	cin >> grade;
-	if (grade >= 70 && grade <= 100)
+	int grade; //initializing grade as int
+	cout << "Enter your grade: ";
+	cin >> grade; //taking grades from user
+	if (grade >= 70 && grade <= 100) //comparing grades to give the results
 	{
 		cout << "Your grade is A" << endl;
 	}

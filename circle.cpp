@@ -1,4 +1,4 @@
-//Chapter 1 Exercise 8
+//Chapter: 1 Exercise: 8
 #include<iostream>
 using namespace std;
 int main()

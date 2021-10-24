@@ -2,20 +2,17 @@
 using namespace std;
 int main()
 {
-	string answer;
-	cout << "What is the capital of France?" << endl;
-	cin >> answer;
-	for (int i = 0; i < answer.length(); i++)
-	{
-		answer[i] = tolower(answer[i]);
-	}
-	if (answer == "paris")
+	string n; // initializing value as string
+	cout << "What is the capital of France?" << endl; //asking user a question and giving them choices 
+	cout << "A:Dubai \n B:Lodon \n C:Bath \n D:Paris" << endl;
+	cin >> n; // taking answer from the user
+	if (n == 'D'|| n =='d') // checking answer
 	{
 		cout << "You are correct!" << endl;
 	}
 	else
 	{
-		cout << "You are incorrect!" << endl;
+		cout << "thats the wrong answer" << endl;
 	}
 	return 0;
 }

@@ -2,14 +2,12 @@
 using namespace std;
 int main()
 {
-	int PurchasePrice;
-	int SalePrice;
-	int checking;
-	cout << "Enter the purchase price: ";
-	cin >> PurchasePrice;
-	cout << "Enter the sale price: ";
-	cin >> SalePrice;
-	checker = SalePrice - PurchasePrice; // Formula
+	int Purchase, Sale, checking; //initializing values as int
+	cout << "Enter the purchase price: "; // asking user to enter purchase price
+	cin >> Purchase;
+	cout << "Enter the sale price: ";// asking user to enter slae price
+	cin >> Sale;
+	checker = Sale - Purchase; // Formula
 	if (checking > 0) // For profit
 	{
 		cout << "Profit: " << checker << endl;

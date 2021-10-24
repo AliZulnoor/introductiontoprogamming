@@ -7,8 +7,8 @@ int main()
 
 	if (myBirthday == true) // if statement will be executed if the value of myBirthday is true
 	{
-		age++; // age + 1
-		cout << "It is my birthday. I am " << age << " years old";
+		age++; //adding 1 in value
+		cout << "It is my birthday. I am: " << age << " years old";
 	}
 	else // else statement will be executed if the value of myBirthday is false
 	{

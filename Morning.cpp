@@ -25,7 +25,7 @@ int main()
 	}
 	else
 	{
-		cout << "Time not valid " << endl; // Time not valid Text
+		cout << "Invalid Time " << endl; // Time not valid Text
 	}
 	return 0;
 }
