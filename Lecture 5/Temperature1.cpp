@@ -6,7 +6,7 @@ int main()
 
 	float celcius; //Initializing Celsius as float
 
-	cout << fahrenheit << " fahrenheit is " << (fahrenheit - 32) * 5 / 9 << " in Celsius." << endl; // Using formula = (F-32)*5/9 to get value in celcius
+	cout << fahrenheit << " celcius is" << (fahrenheit - 32) * 5 / 9 << endl; // Using formula = (F-32)*5/9 to get value in celcius
 
 	return 0;
 
