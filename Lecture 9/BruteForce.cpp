@@ -26,4 +26,5 @@ int main()
 	{
 		cout << "You ran out of attempts" << endl;
 	}
+	return 0;
 }
