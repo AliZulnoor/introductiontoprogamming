@@ -9,6 +9,13 @@ int main()
 	{
 		cout << "Please enter marks for subject " << i << endl;
 		cin >> a[i];
+		while (cin.fail())
+		{
+			cin.clear();
+			cin.ignore(1000, '\n');
+				cout << "Please enter your marks in numbers\n Subject " << i<<" : ";
+				cin >> a[i];
+		}
 		total += a[i];
 		i++;
 		
