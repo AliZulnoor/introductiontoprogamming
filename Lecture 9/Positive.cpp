@@ -10,5 +10,5 @@ int main()
 		myNum = myNum - 0.5;
 		cout << myNum << endl;
 	}
-	
+	return 0;
 }
